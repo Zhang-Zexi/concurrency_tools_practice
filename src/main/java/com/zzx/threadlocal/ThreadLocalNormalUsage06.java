@@ -9,6 +9,8 @@ package com.zzx.threadlocal;
  **/
 public class ThreadLocalNormalUsage06 {
 
+    static User student;
+
     public static void main(String[] args) {
 //        Thread
         new Service1().process();
@@ -19,7 +21,10 @@ public class ThreadLocalNormalUsage06 {
 class Service1 {
     public void process() {
         User user = new User("鹏哥");
-        UserContextHolder.holder.set(user);
+//        UserContextHolder.holder.set(user);
+        // static修饰的，各个线程共享，依然会带来线程安全问题
+        // 所以ThreadLocal不要放静态对象，没有用
+        UserContextHolder.holder.set(ThreadLocalNormalUsage06.student);
         new Service2().process();
     }
 }
@@ -28,6 +33,9 @@ class Service2 {
     public void process() {
         User user = UserContextHolder.holder.get();
         System.out.println("Service2拿到用户名" + user.name);
+        UserContextHolder.holder.remove();
+        user = new User("王姐");
+        UserContextHolder.holder.set(user);
         new Service3().process();
     }
 }
@@ -38,6 +46,7 @@ class Service3 {
         // 一个线程可以用到多个ThreadLocal
 //        ThreadSafeFormatter.dateFormatThreadLocal.get();
         System.out.println("Service3拿到用户名" + user.name);
+        UserContextHolder.holder.remove();
     }
 }
 
