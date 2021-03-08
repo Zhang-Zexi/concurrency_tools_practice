@@ -11,12 +11,17 @@ public class ThreadLocalNPE {
         longThreadLocal.set(Thread.currentThread().getId());
     }
 
-    public long get() {
+//    public long get() {
+//        return longThreadLocal.get();
+//    }
+
+    public Long get() {
         return longThreadLocal.get();
     }
 
     public static void main(String[] args) {
         ThreadLocalNPE threadLocalNPE = new ThreadLocalNPE();
+//        threadLocalNPE.set();
         System.out.println(threadLocalNPE.get());
         Thread thread1 = new Thread(new Runnable() {
             @Override

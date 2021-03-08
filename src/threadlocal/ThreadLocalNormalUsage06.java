@@ -1,9 +1,11 @@
 package threadlocal;
 
 /**
- * 描述：     演示ThreadLocal用法2：避免传递参数的麻烦
+ * 描述：演示ThreadLocal用法2：避免传递参数的麻烦
  */
 public class ThreadLocalNormalUsage06 {
+
+//    static User student;
 
     public static void main(String[] args) {
         new Service1().process("");
@@ -14,8 +16,10 @@ public class ThreadLocalNormalUsage06 {
 class Service1 {
 
     public void process(String name) {
-        User user = new User("超哥");
+        User user = new User("塨哥");
         UserContextHolder.holder.set(user);
+//        ThreadLocalNormalUsage06.student;
+//        UserContextHolder.holder.set(ThreadLocalNormalUsage06.student);
         new Service2().process();
     }
 }
@@ -41,8 +45,8 @@ class Service3 {
 
 class UserContextHolder {
 
+    // 和第一种用法的区别是：第一种是创建的时候就赋值，这里是使用的时候才赋值
     public static ThreadLocal<User> holder = new ThreadLocal<>();
-
 
 }
 
