@@ -20,191 +20,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bee85f6-be1e-4616-8530-ddaa74184023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aqs/AQSDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collections/concurrenthashmap/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/aqs/AQSDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/aqs/OneShotLatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/atomic/AtomicArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/atomic/AtomicIntegerDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/atomic/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/atomic/AtomicLongDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/atomic/LongAccumulatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/atomic/LongAdderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/cas/SimulatedCAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/collections/concurrenthashmap/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/collections/concurrenthashmap/OptionsNotSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/computable/Computable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/computable/ExpensiveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/flowcontrol/condition/ConditionDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/flowcontrol/condition/ConditionDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/flowcontrol/countdownlatch/CountDownLatchDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/flowcontrol/countdownlatch/CountDownLatchDemo1And2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/flowcontrol/countdownlatch/CountDownLatchDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/flowcontrol/cyclicbarrier/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/flowcontrol/semaphore/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/future/FutureTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/future/GetException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/future/MultiFutures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/future/OneFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/future/OneFutureLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/future/RunnableCantThrowsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/future/Timeout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/immutable/FinalMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/immutable/FinalStringDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/immutable/FinalStringDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/immutable/FinalVariableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/immutable/ImmutableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/immutable/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/immutable/StackConfinement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/immutable/TestFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/ImoocCache9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/computable/Computable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/computable/ExpensiveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/imooccache/computable/MayFail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/lock/lock/MustUnlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/lock/reentrantlock/GetHoldCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadlocal/ThreadLocalNormalUsage05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadlocal/ThreadLocalNormalUsage06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/CachedThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/EveryTaskOneThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/FixedThreadPoolOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/FixedThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/ForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/PauseableThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/ScheduledThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/ShutDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooccache/threadpool/SingleThreadExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lock/lock/LockInterruptibly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lock/lock/MustUnlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lock/lock/PessimismOptimismLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lock/lock/TryLockDeadlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lock/reentrantlock/CinemaBookSeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lock/reentrantlock/FairLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lock/reentrantlock/LockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lock/reentrantlock/RecursionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNPE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage00.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/aqs/AQSDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/aqs/OneShotLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aqs/OneShotLatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/atomic/AtomicArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomic/AtomicArrayDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/atomic/AtomicIntegerDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomic/AtomicIntegerDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/atomic/AtomicIntegerFieldUpdaterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomic/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/atomic/AtomicLongDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomic/AtomicLongDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/atomic/LongAccumolatorDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/atomic/LongAccumulatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomic/LongAccumulatorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/atomic/LongAdderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomic/LongAdderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/cas/SimulatedCAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cas/SimulatedCAS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/cas/TwoThreadsCompetitiom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/cas/TwoThreadsCompetition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/cas/TwoThreadsCompetition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cas/TwoThreadsCompetition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/concurrenthashmap/ConcurrentHashMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/concurrenthashmap/OptionsNotSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/concurrenthashmap/OptionsNotSafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/copyonwrite/CopyOnWriteArrayListDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/copyonwrite/CopyOnWriteArrayListDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/copyonwrite/CopyOnWriteArrayListDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/copyonwrite/CopyOnWriteArrayListDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/prdecessor/HashtableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/collections/predecessor/HashtableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/prdecessor/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/collections/predecessor/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/prdecessor/SynList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/collections/predecessor/SynList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/prdecessor/VectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/collections/predecessor/VectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/predecessor/HashtableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/predecessor/HashtableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/predecessor/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/predecessor/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/predecessor/SynList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/predecessor/SynList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/predecessor/VectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/predecessor/VectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/collections/queue/ArrayBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/queue/ArrayBlockingQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/copyonwrite/CopyOnWriteArrayListDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/collections/copyonwrite/CopyOnWriteArrayListDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/copyonwrite/CopyOnWriteArrayListDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/collections/copyonwrite/CopyOnWriteArrayListDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/flowcontrol/condition/ConditionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowcontrol/condition/ConditionDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/flowcontrol/condition/ConditionDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowcontrol/condition/ConditionDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/flowcontrol/countdownlatch/CountDownLatchDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowcontrol/countdownlatch/CountDownLatchDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/flowcontrol/countdownlatch/CountDownLatchDemo1And2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowcontrol/countdownlatch/CountDownLatchDemo1And2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/flowcontrol/countdownlatch/CountDownLatchDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowcontrol/countdownlatch/CountDownLatchDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/flowcontrol/cyclicbarrier/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowcontrol/cyclicbarrier/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/flowcontrol/semaphore/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowcontrol/semaphore/SemaphoreDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/future/FutureTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/future/FutureTaskDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/future/GetException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/future/GetException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/future/MultiFutures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/future/MultiFutures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/future/OneFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/future/OneFuture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/future/OneFutureLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/future/OneFutureLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/future/RunnableCantThrowsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/future/RunnableCantThrowsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/future/Timeout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/future/Timeout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/immutable/FinalMethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/FinalMethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/immutable/FinalStringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/FinalStringDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/immutable/FinalStringDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/FinalStringDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/immutable/FinalVariableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/FinalVariableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/immutable/ImmutableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/ImmutableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/immutable/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/immutable/StackConfinement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/StackConfinement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/immutable/TestFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/TestFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/ImoocCache9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/ImoocCache9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/computable/Computable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/computable/ExpensiveFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/imooccache/computable/MayFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/computable/MayFail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/lock/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/lock/LockInterruptibly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/lock/LockInterruptibly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/lock/MustUnlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/lock/PessimismOptimismLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/lock/PessimismOptimismLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/lock/TryLockDeadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/lock/TryLockDeadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/readwrite/CinemaReadWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/readwrite/CinemaReadWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/readwrite/CinemaReadWriteQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/readwrite/CinemaReadWriteQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/readwrite/NonfairBargeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/readwrite/NonfairBargeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/readwrite/Upgrading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/readwrite/Upgrading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/reentrantlock/CinemaBookSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/reentrantlock/CinemaBookSeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/reentrantlock/FairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/reentrantlock/FairLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/reentrantlock/GetHoldCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/GetHoldCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/reentrantlock/LockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/reentrantlock/LockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/reentrantlock/RecursionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/reentrantlock/RecursionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/lock/spinlock/SpinLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/spinlock/SpinLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/queue/ArrayBlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/collections/queue/ArrayBlockingQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/readwrite/CinemaReadWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/readwrite/CinemaReadWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/readwrite/CinemaReadWriteQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/readwrite/CinemaReadWriteQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/readwrite/NonfairBargeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/readwrite/NonfairBargeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/readwrite/Upgrading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/readwrite/Upgrading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/spinlock/SpinLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/lock/spinlock/SpinLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadlocal/ThreadLocalNPE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/threadlocal/ThreadLocalNPE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadlocal/ThreadLocalNormalUsage00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/threadlocal/ThreadLocalNormalUsage00.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadlocal/ThreadLocalNormalUsage01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/threadlocal/ThreadLocalNormalUsage01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadlocal/ThreadLocalNormalUsage02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/threadlocal/ThreadLocalNormalUsage02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadlocal/ThreadLocalNormalUsage03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/threadlocal/ThreadLocalNormalUsage03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadlocal/ThreadLocalNormalUsage04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooccache/threadlocal/ThreadLocalNormalUsage04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadlocal/ThreadLocalNormalUsage05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadlocal/ThreadLocalNormalUsage06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/CachedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/CachedThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/EveryTaskOneThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/EveryTaskOneThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/FixedThreadPoolOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/FixedThreadPoolOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/FixedThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/FixedThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/ForLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/PauseableThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/PauseableThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/ScheduledThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/ScheduledThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/ShutDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/ShutDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzx/threadpool/SingleThreadExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadpool/SingleThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/6类原子类纵览.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/AQS 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/AQS 2png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/AQS 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/AtomicLong的弊端.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/CAS 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/CachedThreadPool .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/Condition作用 .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/CountDownLatch 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/CountDownLatch源码分析 .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/Future的cancel方法：取消任务的执行 .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/HashMap分析 1.7 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/HashMap分析 1.7 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/HashMap分析 1.8 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/HashMap分析 1.8 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/JDK1.7的ConcurrentHashMap实现和分析 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/JDK1.7的ConcurrentHashMap实现和分析 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/JDK1.8的ConcurrentHashMap实现和分析 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/Java 8 HashMap结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/LongAdder带来的改进和原理 .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/LongAdder带来的改进和原理 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/LongAdder带来的改进和原理 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/Map接口1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/Map接口2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ReentrantLock使用案例 .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ReentrantLock使用案例2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ReentrantLock使用案例3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ReentrantReadWriteLock具体用法 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ReentrantReadWriteLock具体用法 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ReentrantReadWriteLock具体用法 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/SynchronousQueue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal原理图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/ThreadLocal演进过程/图片 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/corePoolSize和maxPoolSize .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/乐观锁1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/乐观锁2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/乐观锁3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/乐观锁4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/乐观锁5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/什么是阻塞队列 .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/什么是阻塞队列 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/什么是阻塞队列 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/信号量9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/公平锁1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/公平锁2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/可见性1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/可见性2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/可重入锁和不可重入锁源码对比.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/哪个是线程池？ .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/实战项目：高性能缓存 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/实战项目：高性能缓存 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/对比公平锁和非公平锁源码.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/悲观锁.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/悲观锁2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/有哪些控制并发流程的工具类？ .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/红黑树.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/线程池拒绝任务.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/线程池构造函数的参数 .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/线程池添加线程规则  .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/线程池的submit方法返回Future对象.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/线程池的submit方法返回Future对象2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/线程池的submit方法返回Future对象3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/线程池结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/读锁插队策略 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/读锁插队策略 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/阻塞队列和非阻塞队列 .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/图片/非公平锁.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage00.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage01$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadSafeFormatter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadSafeFormatter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadSafeFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadSafeFormatter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,40 +151,14 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\03-Code\02-Imooc\Currency\concurrency_tools_practice\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\03-Code\02-Imooc\Currency\concurrency_tools_practice\src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\03-Code\02-Imooc\Currency\concurrency_tools_practice\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LongAdderDemo">
-    <configuration name="AQSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aqs.AQSDemo" />
-      <module name="concurrency_tools_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aqs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtomicLongDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="atomic.AtomicLongDemo" />
-      <module name="concurrency_tools_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadLocalNormalUsage05">
     <configuration name="LongAccumulatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="atomic.LongAccumulatorDemo" />
       <module name="concurrency_tools_practice" />
@@ -297,12 +185,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadLocalNormalUsage03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadlocal.ThreadLocalNormalUsage03" />
+      <module name="concurrency_tools_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalNormalUsage04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadlocal.ThreadLocalNormalUsage04" />
+      <module name="concurrency_tools_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalNormalUsage05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadlocal.ThreadLocalNormalUsage05" />
+      <module name="concurrency_tools_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadLocalNormalUsage05" />
+        <item itemvalue="Application.ThreadLocalNormalUsage04" />
+        <item itemvalue="Application.ThreadLocalNormalUsage03" />
         <item itemvalue="Application.LongAdderDemo" />
         <item itemvalue="Application.LongAccumulatorDemo" />
-        <item itemvalue="Application.AtomicLongDemo" />
-        <item itemvalue="Application.AQSDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +246,8 @@
       <updated>1615124991139</updated>
       <workItem from="1615124992479" duration="597000" />
       <workItem from="1615125623629" duration="15000" />
+      <workItem from="1615125668624" duration="1059000" />
+      <workItem from="1615207831467" duration="3494000" />
     </task>
     <servers />
   </component>
@@ -345,6 +275,22 @@
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="555" y="191" key="FileChooserDialogImpl/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615125191060" />
+    <state width="1506" height="324" key="GridCell.Tab.0.bottom" timestamp="1615213100845">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state width="1506" height="324" key="GridCell.Tab.0.bottom/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615213100845" />
+    <state width="1506" height="324" key="GridCell.Tab.0.center" timestamp="1615213100845">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state width="1506" height="324" key="GridCell.Tab.0.center/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615213100845" />
+    <state width="1506" height="324" key="GridCell.Tab.0.left" timestamp="1615213100845">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state width="1506" height="324" key="GridCell.Tab.0.left/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615213100845" />
+    <state width="1506" height="324" key="GridCell.Tab.0.right" timestamp="1615213100845">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state width="1506" height="324" key="GridCell.Tab.0.right/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615213100845" />
     <state x="284" y="81" key="SettingsEditor" timestamp="1615125485525">
       <screen x="0" y="0" width="1549" height="871" />
     </state>

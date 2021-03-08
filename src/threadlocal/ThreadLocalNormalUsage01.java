@@ -4,10 +4,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * 描述：     10个线程打印日期
+ * 描述：10个线程打印日期
  */
 public class ThreadLocalNormalUsage01 {
 
+    // 这种写法比较丑陋，假如有1000个线程就要创建、运行、销毁1000个线程的开销
     public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i < 30; i++) {
             int finalI = i;
