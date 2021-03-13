@@ -5,6 +5,8 @@ import java.util.Date;
 
 /**
  * 描述：10个线程打印日期
+ *
+ * 缺点：但是for循环，每次都要new SimpleDateFormat，性能很低
  */
 public class ThreadLocalNormalUsage01 {
 

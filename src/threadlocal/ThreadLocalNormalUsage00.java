@@ -26,7 +26,8 @@ public class ThreadLocalNormalUsage00 {
     }
 
     public String date(int seconds) {
-        //参数的单位是毫秒，从1970.1.1 00:00:00 GMT计时
+        // 参数的单位是毫秒，从1970.1.1 00:00:00 GMT计时
+        // 北京时间是从8点开始计时
         Date date = new Date(1000 * seconds);
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return dateFormat.format(date);

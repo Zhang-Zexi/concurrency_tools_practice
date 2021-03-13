@@ -6,7 +6,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 描述：1000个打印日期的任务，用线程池来执行
+ * 描述：1000个打印日期的任务，用线程池来执行，创建一个对象，多个共用
+ *
+ * 缺点：虽然解决重复创建资源的问题，但是所有的线程都公用一个DateFormat对象的时候，它发生了线程安全问题
  */
 public class ThreadLocalNormalUsage03 {
 

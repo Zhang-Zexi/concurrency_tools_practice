@@ -7,6 +7,8 @@ import java.util.concurrent.Executors;
 
 /**
  * 描述：1000个打印日期的任务，用线程池来执行
+ *
+ * 缺点：如果一个线程执行100个任务，1000线程创建销毁了1000个DateFormat对象
  */
 public class ThreadLocalNormalUsage02 {
 

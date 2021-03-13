@@ -1,7 +1,8 @@
 package immutable;
 
 /**
- * 描述：     演示栈封闭的两种情况，基本变量和对象 先演示线程争抢带来错误结果，然后把变量放到方法内，情况就变了
+ * 描述：演示栈封闭的两种情况，基本变量和对象
+ * 先演示线程争抢带来错误结果，然后把变量放到方法内，情况就变了
  */
 public class StackConfinement implements Runnable {
 
@@ -9,11 +10,15 @@ public class StackConfinement implements Runnable {
 
     public void inThread() {
         int neverGoOut = 0;
-        synchronized (this) {
-            for (int i = 0; i < 10000; i++) {
-                neverGoOut++;
-            }
+        for (int i = 0; i < 10000; i++) {
+            neverGoOut++;
         }
+        // 这边就算加了synchronized也会被编译器优化掉，完全没有必要
+//        synchronized (this) {
+//            for (int i = 0; i < 10000; i++) {
+//                neverGoOut++;
+//            }
+//        }
 
         System.out.println("栈内保护的数字是线程安全的：" + neverGoOut);
     }
