@@ -1,7 +1,7 @@
 package cas;
 
 /**
- * 描述：     模拟CAS操作，等价代码
+ * 描述：模拟CAS操作，等价代码
  */
 public class TwoThreadsCompetition implements Runnable {
 
@@ -18,8 +18,8 @@ public class TwoThreadsCompetition implements Runnable {
     public static void main(String[] args) throws InterruptedException {
         TwoThreadsCompetition r = new TwoThreadsCompetition();
         r.value = 0;
-        Thread t1 = new Thread(r,"Thread 1");
-        Thread t2 = new Thread(r,"Thread 2");
+        Thread t1 = new Thread(r, "Thread 1");
+        Thread t2 = new Thread(r, "Thread 2");
         t1.start();
         t2.start();
         t1.join();

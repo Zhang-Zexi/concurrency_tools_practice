@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * 描述：     演示高并发场景下，LongAdder比AtomicLong性能好
+ * 描述：演示高并发场景下，LongAdder比AtomicLong性能好
  */
 public class AtomicLongDemo {
 
@@ -16,6 +16,7 @@ public class AtomicLongDemo {
         for (int i = 0; i < 10000; i++) {
             service.submit(new Task(counter));
         }
+        // 线程执行完关闭
         service.shutdown();
         while (!service.isTerminated()) {
 
@@ -35,6 +36,7 @@ public class AtomicLongDemo {
 
         @Override
         public void run() {
+            // 循环一万次，每次+1
             for (int i = 0; i < 10000; i++) {
                 counter.incrementAndGet();
             }
