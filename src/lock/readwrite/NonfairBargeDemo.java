@@ -3,10 +3,11 @@ package lock.readwrite;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * 描述：     演示非公平和公平的ReentrantReadWriteLock的策略
+ * 描述：演示非公平和公平的ReentrantReadWriteLock的策略
  */
 public class NonfairBargeDemo {
 
+    // 设置读写锁，公平，非公平规则
     private static ReentrantReadWriteLock reentrantReadWriteLock = new ReentrantReadWriteLock(
             true);
 
@@ -46,11 +47,11 @@ public class NonfairBargeDemo {
     }
 
     public static void main(String[] args) {
-        new Thread(()->write(),"Thread1").start();
-        new Thread(()->read(),"Thread2").start();
-        new Thread(()->read(),"Thread3").start();
-        new Thread(()->write(),"Thread4").start();
-        new Thread(()->read(),"Thread5").start();
+        new Thread(() -> write(), "Thread1").start();
+        new Thread(() -> read(), "Thread2").start();
+        new Thread(() -> read(), "Thread3").start();
+        new Thread(() -> write(), "Thread4").start();
+        new Thread(() -> read(), "Thread5").start();
         new Thread(new Runnable() {
             @Override
             public void run() {

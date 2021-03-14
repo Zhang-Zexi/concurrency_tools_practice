@@ -3,7 +3,7 @@ package lock.readwrite;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * 描述：     TODO
+ * 描述：电影院升级读写锁
  */
 public class CinemaReadWrite {
 

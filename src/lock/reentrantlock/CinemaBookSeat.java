@@ -3,7 +3,8 @@ package lock.reentrantlock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 描述：     演示多线程预定电影院座位
+ * 描述：演示多线程预定电影院座位
+ *
  */
 public class CinemaBookSeat {
 
@@ -23,6 +24,7 @@ public class CinemaBookSeat {
     }
 
     public static void main(String[] args) {
+        // 任何线程都不能同时预定座位
         new Thread(() -> bookSeat()).start();
         new Thread(() -> bookSeat()).start();
         new Thread(() -> bookSeat()).start();

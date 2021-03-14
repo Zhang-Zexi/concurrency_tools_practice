@@ -5,12 +5,13 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 描述：     演示公平和不公平两种情况
+ * 描述：演示公平和不公平两种情况
  */
 public class FairLock {
 
     public static void main(String[] args) {
         PrintQueue printQueue = new PrintQueue();
+        // 10个线程调用打印队列去打印
         Thread thread[] = new Thread[10];
         for (int i = 0; i < 10; i++) {
             thread[i] = new Thread(new Job(printQueue));
@@ -28,6 +29,7 @@ public class FairLock {
 
 class Job implements Runnable {
 
+    // 打印队列
     PrintQueue printQueue;
 
     public Job(PrintQueue printQueue) {
@@ -44,8 +46,10 @@ class Job implements Runnable {
 
 class PrintQueue {
 
-    private Lock queueLock = new ReentrantLock(true);
+//    private Lock queueLock = new ReentrantLock(true);
+    private Lock queueLock = new ReentrantLock(false);
 
+    // 每个文档每次打印两份
     public void printJob(Object document) {
         queueLock.lock();
         try {

@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 描述：     演示ReentrantLock的基本用法，演示被打断
+ * 描述： 演示ReentrantLock的基本用法，演示被打断
  */
 public class LockDemo {
 
@@ -23,7 +23,7 @@ public class LockDemo {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    outputer.output("悟空");
+                    outputer.output("aqumon1");
                 }
 
             }
@@ -38,7 +38,7 @@ public class LockDemo {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    outputer.output("大师兄");
+                    outputer.output("aqumon2");
                 }
 
             }

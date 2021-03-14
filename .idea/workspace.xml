@@ -20,33 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bee85f6-be1e-4616-8530-ddaa74184023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/demo/TestFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/demo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/immutable/ImmutableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/ImmutableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/immutable/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/immutable/StackConfinement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/StackConfinement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/immutable/TestFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/immutable/TestFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/StackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage00.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage00.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadlocal/ThreadLocalNormalUsage04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/ConcurrencyTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/ConcurrencyTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/ConcurrencyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/ConcurrencyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/immutable/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/immutable/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/immutable/StackConfinement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/immutable/StackConfinement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/immutable/TestFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/immutable/TestFinal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage00.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage00.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage02$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage02$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage03$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage03$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage04$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage04$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/threadlocal/ThreadLocalNormalUsage04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/lock/MustUnlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/lock/MustUnlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/readwrite/CinemaReadWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/readwrite/CinemaReadWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/CinemaBookSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/CinemaBookSeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/FairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/FairLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/GetHoldCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/GetHoldCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/LockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/LockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/RecursionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/RecursionDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +76,13 @@
       <recent name="D:\03-Code\02-Imooc\Currency\concurrency_tools_practice\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackConfinement">
-    <configuration name="StackConfinement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="immutable.StackConfinement" />
+  <component name="RunManager" selected="Application.CinemaReadWrite">
+    <configuration name="CinemaReadWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.readwrite.CinemaReadWrite" />
       <module name="concurrency_tools_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="immutable.*" />
+          <option name="PATTERN" value="lock.readwrite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.StackTest" />
+    <configuration name="FairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.reentrantlock.FairLock" />
       <module name="concurrency_tools_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="lock.reentrantlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalNormalUsage04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadlocal.ThreadLocalNormalUsage04" />
+    <configuration name="GetHoldCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.reentrantlock.GetHoldCount" />
       <module name="concurrency_tools_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadlocal.*" />
+          <option name="PATTERN" value="lock.reentrantlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalNormalUsage05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadlocal.ThreadLocalNormalUsage05" />
+    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.reentrantlock.LockDemo" />
       <module name="concurrency_tools_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadlocal.*" />
+          <option name="PATTERN" value="lock.reentrantlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalNormalUsage06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadlocal.ThreadLocalNormalUsage06" />
+    <configuration name="RecursionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.reentrantlock.RecursionDemo" />
       <module name="concurrency_tools_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadlocal.*" />
+          <option name="PATTERN" value="lock.reentrantlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StackConfinement" />
-        <item itemvalue="Application.StackTest" />
-        <item itemvalue="Application.ThreadLocalNormalUsage06" />
-        <item itemvalue="Application.ThreadLocalNormalUsage05" />
-        <item itemvalue="Application.ThreadLocalNormalUsage04" />
+        <item itemvalue="Application.CinemaReadWrite" />
+        <item itemvalue="Application.FairLock" />
+        <item itemvalue="Application.RecursionDemo" />
+        <item itemvalue="Application.GetHoldCount" />
+        <item itemvalue="Application.LockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +170,8 @@
       <workItem from="1615125668624" duration="1059000" />
       <workItem from="1615207831467" duration="3494000" />
       <workItem from="1615213112388" duration="5075000" />
-      <workItem from="1615609152356" duration="13456000" />
+      <workItem from="1615609152356" duration="20583000" />
+      <workItem from="1615704795068" duration="3795000" />
     </task>
     <servers />
   </component>
@@ -221,26 +203,26 @@
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="555" y="191" key="FileChooserDialogImpl/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615125191060" />
-    <state width="1506" height="313" key="GridCell.Tab.0.bottom" timestamp="1615636989579">
+    <state width="1506" height="147" key="GridCell.Tab.0.bottom" timestamp="1615709505542">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="1506" height="215" key="GridCell.Tab.0.bottom/0.0.1549.871/-1920.0.1549.871@-1920.0.1549.871" timestamp="1615621209550" />
-    <state width="1506" height="313" key="GridCell.Tab.0.bottom/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615636989579" />
-    <state width="1506" height="313" key="GridCell.Tab.0.center" timestamp="1615636989579">
+    <state width="1506" height="147" key="GridCell.Tab.0.bottom/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615709505542" />
+    <state width="1506" height="147" key="GridCell.Tab.0.center" timestamp="1615709505542">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="1506" height="215" key="GridCell.Tab.0.center/0.0.1549.871/-1920.0.1549.871@-1920.0.1549.871" timestamp="1615621209550" />
-    <state width="1506" height="313" key="GridCell.Tab.0.center/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615636989579" />
-    <state width="1506" height="313" key="GridCell.Tab.0.left" timestamp="1615636989578">
+    <state width="1506" height="147" key="GridCell.Tab.0.center/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615709505542" />
+    <state width="1506" height="147" key="GridCell.Tab.0.left" timestamp="1615709505542">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="1506" height="215" key="GridCell.Tab.0.left/0.0.1549.871/-1920.0.1549.871@-1920.0.1549.871" timestamp="1615621209550" />
-    <state width="1506" height="313" key="GridCell.Tab.0.left/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615636989578" />
-    <state width="1506" height="313" key="GridCell.Tab.0.right" timestamp="1615636989579">
+    <state width="1506" height="147" key="GridCell.Tab.0.left/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615709505542" />
+    <state width="1506" height="147" key="GridCell.Tab.0.right" timestamp="1615709505542">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="1506" height="215" key="GridCell.Tab.0.right/0.0.1549.871/-1920.0.1549.871@-1920.0.1549.871" timestamp="1615621209550" />
-    <state width="1506" height="313" key="GridCell.Tab.0.right/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615636989579" />
+    <state width="1506" height="147" key="GridCell.Tab.0.right/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615709505542" />
     <state width="1506" height="280" key="GridCell.Tab.1.bottom" timestamp="1615218760455">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
@@ -261,9 +243,13 @@
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="284" y="81" key="SettingsEditor/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615631438826" />
-    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1615630057584">
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1615644084435">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615630057584" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615644084435" />
+    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1615706250955">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615706250955" />
   </component>
 </project>
