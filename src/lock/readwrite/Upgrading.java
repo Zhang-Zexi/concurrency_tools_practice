@@ -3,7 +3,7 @@ package lock.readwrite;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * 描述：     演示ReentrantReadWriteLock可以降级，不能升级
+ * 描述：演示ReentrantReadWriteLock可以降级，不能升级
  */
 public class Upgrading {
 
@@ -45,12 +45,14 @@ public class Upgrading {
     }
 
     public static void main(String[] args) throws InterruptedException {
+        // 1.降级
 //        System.out.println("先演示降级是可以的");
 //        Thread thread1 = new Thread(() -> writeDowngrading(), "Thread1");
 //        thread1.start();
 //        thread1.join();
 //        System.out.println("------------------");
-//        System.out.println("演示升级是不行的");
+        // 2.升级
+        System.out.println("演示升级是不行的");
         Thread thread2 = new Thread(() -> readUpgrading(), "Thread2");
         thread2.start();
     }

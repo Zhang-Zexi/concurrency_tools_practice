@@ -3,21 +3,27 @@ package atomic;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * 描述：     演示AtomicInteger的基本用法，对比非原子类的线程安全问题，使用了原子类之后，不需要加锁，也可以保证线程安全。
+ * 描述：演示AtomicInteger的基本用法，对比非原子类的线程安全问题，使用了原子类之后，不需要加锁，也可以保证线程安全。
  */
 public class AtomicIntegerDemo1 implements Runnable {
 
     private static final AtomicInteger atomicInteger = new AtomicInteger();
 
     public void incrementAtomic() {
-        atomicInteger.getAndAdd(-90);
+//        atomicInteger.getAndIncrement();
+//        atomicInteger.getAndDecrement();
+        atomicInteger.getAndAdd(10);
+//        atomicInteger.getAndAdd(-90);
     }
 
     private static volatile int basicCount = 0;
 
-    public synchronized void incrementBasic() {
+    public void incrementBasic() {
         basicCount++;
     }
+//    public synchronized void incrementBasic() {
+//        basicCount++;
+//    }
 
     public static void main(String[] args) throws InterruptedException {
         AtomicIntegerDemo1 r = new AtomicIntegerDemo1();

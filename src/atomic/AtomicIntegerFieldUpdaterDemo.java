@@ -3,7 +3,10 @@ package atomic;
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 /**
- * 描述：     演示AtomicIntegerFieldUpdater的用法
+ * 描述：演示AtomicIntegerFieldUpdater的用法
+ *
+ * 适用一些偶尔才会对某个属性进行原子操作的情况
+ * 不需要改变原有属性
  */
 public class AtomicIntegerFieldUpdaterDemo implements Runnable{
 

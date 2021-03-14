@@ -3,7 +3,7 @@ package atomic;
 import java.util.concurrent.atomic.AtomicIntegerArray;
 
 /**
- * 描述：     演示原子数组的使用方法
+ * 描述：演示原子数组的使用方法
  */
 public class AtomicArrayDemo {
 
@@ -31,10 +31,10 @@ public class AtomicArrayDemo {
         }
 
         for (int i = 0; i < atomicIntegerArray.length(); i++) {
-//            if (atomicIntegerArray.get(i)!=0) {
-//                System.out.println("发现了错误"+i);
-//            }
-            System.out.println(atomicIntegerArray.get(i));
+            if (atomicIntegerArray.get(i)!=0) {
+                System.out.println("发现了错误"+i);
+            }
+//            System.out.println(atomicIntegerArray.get(i));
         }
         System.out.println("运行结束");
     }

@@ -21,13 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3bee85f6-be1e-4616-8530-ddaa74184023" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lock/lock/MustUnlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/lock/MustUnlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lock/readwrite/CinemaReadWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/readwrite/CinemaReadWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/CinemaBookSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/CinemaBookSeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/FairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/FairLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/GetHoldCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/GetHoldCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/LockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/LockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lock/reentrantlock/RecursionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/reentrantlock/RecursionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atomic/AtomicArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomic/AtomicArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atomic/AtomicIntegerDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atomic/AtomicIntegerDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/readwrite/NonfairBargeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/readwrite/NonfairBargeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/readwrite/Upgrading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/readwrite/Upgrading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lock/spinlock/SpinLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lock/spinlock/SpinLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +74,61 @@
       <recent name="D:\03-Code\02-Imooc\Currency\concurrency_tools_practice\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CinemaReadWrite">
-    <configuration name="CinemaReadWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.readwrite.CinemaReadWrite" />
+  <component name="RunManager" selected="Application.AtomicIntegerFieldUpdaterDemo">
+    <configuration name="AtomicArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atomic.AtomicArrayDemo" />
+      <module name="concurrency_tools_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicIntegerDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atomic.AtomicIntegerDemo1" />
+      <module name="concurrency_tools_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicIntegerFieldUpdaterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atomic.AtomicIntegerFieldUpdaterDemo" />
+      <module name="concurrency_tools_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpinLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.spinlock.SpinLock" />
+      <module name="concurrency_tools_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lock.spinlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Upgrading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lock.readwrite.Upgrading" />
       <module name="concurrency_tools_practice" />
       <extension name="coverage">
         <pattern>
@@ -90,65 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.reentrantlock.FairLock" />
-      <module name="concurrency_tools_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lock.reentrantlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetHoldCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.reentrantlock.GetHoldCount" />
-      <module name="concurrency_tools_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lock.reentrantlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.reentrantlock.LockDemo" />
-      <module name="concurrency_tools_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lock.reentrantlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.reentrantlock.RecursionDemo" />
-      <module name="concurrency_tools_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lock.reentrantlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CinemaReadWrite" />
-        <item itemvalue="Application.FairLock" />
-        <item itemvalue="Application.RecursionDemo" />
-        <item itemvalue="Application.GetHoldCount" />
-        <item itemvalue="Application.LockDemo" />
+        <item itemvalue="Application.AtomicIntegerFieldUpdaterDemo" />
+        <item itemvalue="Application.AtomicArrayDemo" />
+        <item itemvalue="Application.AtomicIntegerDemo1" />
+        <item itemvalue="Application.SpinLock" />
+        <item itemvalue="Application.Upgrading" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +169,7 @@
       <workItem from="1615207831467" duration="3494000" />
       <workItem from="1615213112388" duration="5075000" />
       <workItem from="1615609152356" duration="20583000" />
-      <workItem from="1615704795068" duration="3795000" />
+      <workItem from="1615704795068" duration="10293000" />
     </task>
     <servers />
   </component>
@@ -203,26 +201,26 @@
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="555" y="191" key="FileChooserDialogImpl/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615125191060" />
-    <state width="1506" height="147" key="GridCell.Tab.0.bottom" timestamp="1615709505542">
+    <state width="1506" height="394" key="GridCell.Tab.0.bottom" timestamp="1615717687038">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="1506" height="215" key="GridCell.Tab.0.bottom/0.0.1549.871/-1920.0.1549.871@-1920.0.1549.871" timestamp="1615621209550" />
-    <state width="1506" height="147" key="GridCell.Tab.0.bottom/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615709505542" />
-    <state width="1506" height="147" key="GridCell.Tab.0.center" timestamp="1615709505542">
+    <state width="1506" height="394" key="GridCell.Tab.0.bottom/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615717687038" />
+    <state width="1506" height="394" key="GridCell.Tab.0.center" timestamp="1615717687038">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="1506" height="215" key="GridCell.Tab.0.center/0.0.1549.871/-1920.0.1549.871@-1920.0.1549.871" timestamp="1615621209550" />
-    <state width="1506" height="147" key="GridCell.Tab.0.center/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615709505542" />
-    <state width="1506" height="147" key="GridCell.Tab.0.left" timestamp="1615709505542">
+    <state width="1506" height="394" key="GridCell.Tab.0.center/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615717687038" />
+    <state width="1506" height="394" key="GridCell.Tab.0.left" timestamp="1615717687038">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="1506" height="215" key="GridCell.Tab.0.left/0.0.1549.871/-1920.0.1549.871@-1920.0.1549.871" timestamp="1615621209550" />
-    <state width="1506" height="147" key="GridCell.Tab.0.left/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615709505542" />
-    <state width="1506" height="147" key="GridCell.Tab.0.right" timestamp="1615709505542">
+    <state width="1506" height="394" key="GridCell.Tab.0.left/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615717687038" />
+    <state width="1506" height="394" key="GridCell.Tab.0.right" timestamp="1615717687038">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="1506" height="215" key="GridCell.Tab.0.right/0.0.1549.871/-1920.0.1549.871@-1920.0.1549.871" timestamp="1615621209550" />
-    <state width="1506" height="147" key="GridCell.Tab.0.right/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615709505542" />
+    <state width="1506" height="394" key="GridCell.Tab.0.right/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615717687038" />
     <state width="1506" height="280" key="GridCell.Tab.1.bottom" timestamp="1615218760455">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
@@ -247,9 +245,9 @@
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615644084435" />
-    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1615706250955">
+    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1615713521756">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615706250955" />
+    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1615713521756" />
   </component>
 </project>

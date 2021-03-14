@@ -3,7 +3,7 @@ package lock.spinlock;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * 描述：     自旋锁
+ * 描述：自旋锁
  */
 public class SpinLock {
 
@@ -11,6 +11,7 @@ public class SpinLock {
 
     public void lock() {
         Thread current = Thread.currentThread();
+        // 持续获取锁
         while (!sign.compareAndSet(null, current)) {
             System.out.println("自旋获取失败，再次尝试");
         }
@@ -18,6 +19,7 @@ public class SpinLock {
 
     public void unlock() {
         Thread current = Thread.currentThread();
+        // 直接解锁
         sign.compareAndSet(current, null);
     }
 
@@ -30,7 +32,8 @@ public class SpinLock {
                 spinLock.lock();
                 System.out.println(Thread.currentThread().getName() + "获取到了自旋锁");
                 try {
-                    Thread.sleep(300);
+                    Thread.sleep(30);
+//                    Thread.sleep(300);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
@@ -39,6 +42,7 @@ public class SpinLock {
                 }
             }
         };
+        // 两个线程同时争抢
         Thread thread1 = new Thread(runnable);
         Thread thread2 = new Thread(runnable);
         thread1.start();
