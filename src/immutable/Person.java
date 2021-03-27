@@ -8,7 +8,7 @@ public class Person {
     // 所有属性都不可变
     // 具有不可变性的对象一定是线程安全的，我们不需要对其采取任何额外的安全措施，也能保证线程安全
     final int age = 18;
-    final String name = "Alice";
+    final String name = "Aqumon";
     // String alice = new String("Alice");
 
     // 3.
